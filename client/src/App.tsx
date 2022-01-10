@@ -10,7 +10,7 @@ import AddLecturePage from './components/classroomPage/AddLecturePage';
 const App = (): React.ReactElement<any, any> => {
   return (
     <div className="App">
-      <SocketProvider url="http://ec2-3-38-83-97.ap-northeast-2.compute.amazonaws.com/">
+      <SocketProvider url="http://ec2-52-78-126-119.ap-northeast-2.compute.amazonaws.com/">
         <LoginModal />
         <Router>
           <Routes>
