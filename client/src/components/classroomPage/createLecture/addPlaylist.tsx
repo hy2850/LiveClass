@@ -53,7 +53,7 @@ const AddPlayList = ({
       <Heading size="md" pl="30px">
         Youtube playlist
       </Heading>
-      <Text size="sm" pl="30px">
+      <Text fontSize="sm" pl="30px">
         Input Youtube playlist.
         <br />
         For
