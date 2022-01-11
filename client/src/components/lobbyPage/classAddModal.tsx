@@ -54,7 +54,7 @@ const AddClassModal = ({ isOpen, onClose, addClass }: AddClassModalProps) => {
 
   const handleJoin = () => {
     fetch(
-      'http://ec2-52-78-126-119.ap-northeast-2.compute.amazonaws.com/api/lobby/class',
+      'http://ec2-13-209-17-49.ap-northeast-2.compute.amazonaws.com/api/lobby/class',
       {
         method: 'PATCH',
         headers: { 'Content-Type': 'application/json' },
@@ -78,7 +78,7 @@ const AddClassModal = ({ isOpen, onClose, addClass }: AddClassModalProps) => {
 
   const handleCreate = () => {
     fetch(
-      'http://ec2-52-78-126-119.ap-northeast-2.compute.amazonaws.com/api/lobby/class',
+      'http://ec2-13-209-17-49.ap-northeast-2.compute.amazonaws.com/api/lobby/class',
       {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },

@@ -9,7 +9,7 @@ const useClasses = () => {
   useEffect(() => {
     if (status === UserLoadStatus.LOADED) {
       fetch(
-        'http://ec2-52-78-126-119.ap-northeast-2.compute.amazonaws.com/api/lobby/classes',
+        'http://ec2-13-209-17-49.ap-northeast-2.compute.amazonaws.com/api/lobby/classes',
         {
           method: 'GET'
         }
